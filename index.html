@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/344520a3bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Mouneshwaran</span> <br>From India</h1>
+        </div>
+
+
+
+</div>
+   </div>
+   <!-------------------------about
+------------------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                  <p>I am a dedicated Computer Science and Engineering student with technical 
+                    expertise in graphic design and creativity. With a proven track record of 
+                    delivering over 50 impactful poster designs in collaboration with major companies,
+                     I excel at transforming ideas into visually stunning and functional solutions.
+                      As Chief Editor of the Rotaract Club, I honed my leadership skills while managing 
+                      over 30 diverse design projects. Passionate about innovation and problem-solving, 
+                      I continuously seek opportunities to enhance my skills and tackle challenges that make a difference</p>
+                        <div class="tab-titles">
+                              <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                              <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><SPAn>UI/UX</SPAn><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><SPAn>2025-current</SPAn><br>UI/UX Design Training at internships,seminars and workshops</li>
+                            <li><span>2025-current</span><br>Web Development Training at vaultofcodes</li>
+                            <li><span>2024-2025</span><br>Building Android app for finance tracker in Nanmudalvan project</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><SPAn>2020</SPAn><br>Secondary School Leaving Certificate is completed </li>
+                            <li><span>2022</span><br>Higher Secondary Certificate is Completed</li>
+                            <li><span>2022-2026</span><br>Pursuing in Bachelor of Computer Science and Engineering</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+   </div>
+
+   </div>
+
+
+    </div>
+    </div> 
+    <!---------------services----------------------> 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing user-friendly interfaces and experiences for web and mobile applications.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div >
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and interactive websites using modern web technologies.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Creating mobile applications for Android and iOS platforms with a focus on user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Mobile UI/UX Design</h3>
+                        <p>A user-centered mobile design focused on seamless navigation, intuitive interfaces, and engaging user experiences. Optimized for performance, accessibility, and visual appeal across all screen sizes.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Bookmark Website</h3>
+                        <p>A simple and organized platform to save, manage, and access your favorite websites all in one place. Easily categorize bookmarks, add notes or tags, and access them from any device.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Finance Track App</h3>
+                        <p>A smart and easy-to-use app to track your income, expenses, and savings. Stay on top of your budget with real-time insights, visual reports, and customizable categories. Perfect for managing personal or business finances on the go.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------------contact--------------------->
+    <div id ="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1> 
+                   <p><i class="fa-solid fa-paper-plane"></i>waranmounesh91@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>9342310032</p>
+                   <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                   </div>
+                   <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                copyright &copy;  Mouneshwaran.Designed<i class="fa-solid fa-heart"></i> by Mouneshwaran
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for the tab functionality
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby-kTUkZJg8wOt5ydq9yjrh6g_1zqNYR8OPdTsqNS-RKQhjEXAcFRO48qxJl-HzMhKbIA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
